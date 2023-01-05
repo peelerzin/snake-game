@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Snake Game</title>
+		<link rel="stylesheet" href="./src/style.css" />
+	</head>
+	<body>
+		<h1 class="text-center text-5xl">Snake Game</h1>
+		<h2 class="text-center text-2xl">
+			This was half of your childhood on car trips.
+		</h2>
+
+		<main class="centered flex-col gap-6">
+			<div id="game-info" class="centered flex-col">
+				<p id="current-player"></p>
+				<p id="current-score"></p>
+			</div>
+			<div
+				class="w-[600px] h-[600px] bg-purple-400 grid border-2 border-black box-content"
+				id="game-grid"
+			></div>
+			<div id="controls" class="centered gap-2">
+				<button id="start-button" class="custom-button">Start</button>
+				<button id="reset-button" class="custom-button">Reset</button>
+			</div>
+		</main>
+
+		<script type="module" src="./src/main.ts"></script>
+	</body>
+</html>

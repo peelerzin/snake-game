@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centered {
+	@apply flex justify-center items-center;
+}
+
+.custom-button {
+	@apply h-8 bg-teal-500 p-2 rounded-md flex justify-center items-center;
+}
+
+.grid-cell {
+	background-color: grey;
+}
+
+.apple-cell {
+	background-color: red;
+}
+
+.snake-cell {
+	background-color: green;
+}
